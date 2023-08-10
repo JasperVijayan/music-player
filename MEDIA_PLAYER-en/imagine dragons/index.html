@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Imagine Dragons</title>
+    
+<script src="https://kit.fontawesome.com/b255de36c2.js" crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="backgroundmp4" type="video/mp4">
+    </video>
+      <div class="container">
+                          <div class="audio-player">              
+    <nav>
+        <div class="buttons">
+          <a href="file:///D:/gifty/mini%20project/BBBB/main.html"> <i class="fa-solid fa-angle-left"></i></a>
+        </div>
+        <p>Now Playing</p>
+     <div class="buttons">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <img src="./image/beleiver.jpg" class="image"> 
+    <div class="music-info-wrapper flex">
+      
+          <div class="music-info">BELIEVER</div> 
+        </div>
+        <div class="music-tracker ">
+          <input
+            type="range"
+            value="0"
+            class="music-slider"
+          />
+        </div>
+        
+        <div class="music-timer-wrapper flex down-margin">
+          <div class="start-timer right-margin">
+            <div class="current-time icon-colour">00:00</div>
+          </div>
+         
+          <div class="end-timer left-margin">
+            <div class="total-duration icon-colour">00:00</div>
+          </div>
+        </div>
+        <div class="music-icons-wrapper">
+          
+          <div class="music-icons flex down-margin">
+            <div class="redo">
+              <i class="fa fa-redo icon-color fa-lg"></i>
+            </div>
+            <div class="previous-btn-wrapper">
+              <i class="fa-solid fa-backward-step"></i>
+            </div>
+            <div class="play-pause-btn-wrapper">
+              <i class=" fa-sharp fa-solid fa-play icons fa-xl"></i>
+            </div>
+            <div class="next-btn-wrapper">
+              <i class="fa-solid fa-forward-step fa-xl"></i>
+            </div>
+            
+            <div class="volume-container">
+              <i class="fa fa-volume-up icon-color fa-lg" aria-hidden="true"></i>
+              <div class="volume-range">
+                <input
+                  type="range"
+                  min="1"
+                  max="100"
+                  value="50"
+                  class="volume-slider"
+                />
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/utils.js"></script>
+    <script src="./js/doubleLinkedList.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
